@@ -60,7 +60,7 @@ const Navbar = () => {
     <>
       {/* visible navbar */}
       <div className=" bg-neutral-900 text-neutral-100 text-xl font-notosans h-20 flex justify-between items-center relative w-[100%]">
-        <div className="w-[55%] flex justify-between">
+        <div className="sm:w-[55%] flex justify-between w-[90%] sm:text-xl text-sm">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -129,34 +129,7 @@ const Navbar = () => {
                       />
                     </svg>
                   </motion.div>
-                  {/* <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ duration: 0.5, delay: 1 }}
-                    className='flex flex-col justify-center items-center h-[100%] space-y-10 font-playfair lowercase text-7xl text-neutral-900'
-                  >
-                    <Link className='hover:text-neutral-100 cursor-pointer' to='home' smooth={true} onClick={closeMenu}>
-                      <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }} transition={{ duration: 0.5 }}>
-                        Home
-                      </motion.div>
-                    </Link>
-                    <Link className='hover:text-neutral-100 cursor-pointer' to='about' smooth={true} onClick={closeMenu}>
-                      <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }} transition={{ duration: 0.5 }}>
-                        about
-                      </motion.div>
-                    </Link>
-                    <Link className='hover:text-neutral-100 cursor-pointer' to='projects' smooth={true} onClick={closeMenu}>
-                      <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }} transition={{ duration: 0.5 }}>
-                        projects
-                      </motion.div>
-                    </Link>
-                    <Link className='hover:text-neutral-100 cursor-pointer' to='contacts' smooth={true} onClick={closeMenu}>
-                      <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }} transition={{ duration: 0.5 }}>
-                        contact
-                      </motion.div>
-                    </Link>
-                  </motion.div> */}
+
                   <div className="flex flex-col justify-center items-center h-[100%] space-y-5 font-playfair lowercase text-7xl text-neutral-900">
                     {links.map((link, i) => (
                       <motion.div
@@ -165,7 +138,7 @@ const Navbar = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ type: 'spring', duration: 1, delay: i * 0.5 }}
                       >
-                        {/* {i > 0 ? ' ' : null} */}
+                        {i > 0 ? ' ' : null}
                         <h2>{link.element}</h2>
                       </motion.div>
                     ))}
@@ -175,48 +148,6 @@ const Navbar = () => {
             </AnimatePresence>
           </div>
         </div>
-        {/* <div className='flex justify-around w-[20%] space-x-[10px]'>
-          <Link to='about' smooth={true} duration={1500} delay={100} className='hover:text-purple-500 cursor-pointer'>
-            about
-          </Link>
-          <Link to='projects' smooth={true} duration={1500} delay={100} className='hover:text-purple-500 cursor-pointer'>
-            projects
-          </Link>
-          <Link to='contacts' smooth={true} duration={1500} delay={100} className='hover:text-purple-500 cursor-pointer'>
-            contact
-          </Link>
-        </div> */}
-        {/* menu */}
-        {/* <div className='absolute h-12'>
-          <button
-            className={`fixed z-40 right-[650px] cursor-pointer ${isOpen ? `text-neutral-100 text-3xl` : `text-neutral-900 text-3xl`}`}
-            onClick={toggleMenu}
-          >
-            {isOpen ? '❌' : '🍔'}
-          </button>
-          <AnimatePresence>
-            {isOpen && (
-              <motion.div
-                className='fixed inset-0 bg-purple-500 z-30 p-4 overflow-hidden'
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-              >
-                <div className='flex flex-col justify-center items-center h-[75%] space-y-10 font-playfair text-5xl text-neutral-100'>
-                  <Link className='hover:text-neutral-900 cursor-pointer' to='about' smooth={true} onClick={closeMenu}>
-                    About
-                  </Link>
-                  <Link className='hover:text-neutral-900 cursor-pointer' to='projects' smooth={true} onClick={closeMenu}>
-                    Projects
-                  </Link>
-                  <Link className='hover:text-neutral-900 cursor-pointer' to='contacts' smooth={true} onClick={closeMenu}>
-                    Contact
-                  </Link>
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </div> */}
       </div>
     </>
   );
