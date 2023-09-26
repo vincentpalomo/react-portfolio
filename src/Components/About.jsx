@@ -66,7 +66,7 @@ const About = () => {
         initial={{ opacity: 0, x: -200 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ type: 'spring', duration: 1.5, delay: 1.5 }}
-        className="sm:w-[90%] sm:flex sm:flex-row sm:justify-center sm:items-center sm:space-y-0  grid grid-cols-3 space-x-5 space-y-5"
+        className="sm:w-[90%] sm:flex sm:flex-row sm:justify-center sm:items-center sm:space-y-0 grid grid-cols-3 gap-5 place-items-center"
       >
         <svg className="sm:h-20 h-16" viewBox="0 0 128 128">
           <path
