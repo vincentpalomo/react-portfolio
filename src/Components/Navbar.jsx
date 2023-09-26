@@ -65,13 +65,13 @@ const Navbar = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="z-20 pl-10"
+            className="absolute z-20 top-10 sm:left-10 left-5"
           >
             software engineer - fullstack developer
           </motion.div>
           <div className="absolute">
             <button
-              className={`fixed z-40 right-10 cursor-pointer ${
+              className={`fixed z-40 right-10 sm:top-10 top-8 cursor-pointer ${
                 isOpen ? `text-neutral-900 text-3xl` : `text-neutral-100 text-3xl`
               }`}
               onClick={toggleMenu}
@@ -85,7 +85,7 @@ const Navbar = () => {
             <AnimatePresence>
               {isOpen && (
                 <motion.div
-                  className="fixed inset-0 bg-purple-500 z-30 overflow-hidden tracking-tighter"
+                  className="fixed inset-0 bg-purple-500 z-30 tracking-tighter"
                   initial={{ y: -1000 }}
                   animate={{ y: 0 }}
                   exit={{ y: -1000 }}
@@ -95,9 +95,9 @@ const Navbar = () => {
                     initial={{ opacity: 0, x: 200 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, delay: 1 }}
-                    className="absolute bottom-0 right-10"
+                    className="absolute bottom-0 sm:right-10 right-16"
                   >
-                    <svg className="h-96" viewBox="0 0 512 640" x="0px" y="0px">
+                    <svg className="sm:h-96 sm:block h-[20rem]" viewBox="0 0 512 640" x="0px" y="0px">
                       <path fill="#171717" d="M213.27,398.83v0C213.22,398.62,213.19,398.49,213.27,398.83Z" />
                       <path
                         fill="#171717"
@@ -130,7 +130,7 @@ const Navbar = () => {
                     </svg>
                   </motion.div>
 
-                  <div className="flex flex-col justify-center items-center h-[100%] space-y-5 font-playfair lowercase text-7xl text-neutral-900">
+                  <div className="flex flex-col justify-center items-center sm:h-[100%] h-3/4 space-y-5 font-playfair lowercase text-7xl text-neutral-900">
                     {links.map((link, i) => (
                       <motion.div
                         key={link.id}
