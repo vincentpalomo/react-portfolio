@@ -42,7 +42,7 @@ const Loading = () => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ repeat: Infinity, repeatType: 'reverse', duration: 1.5, delay: 1 }}
+        transition={{ duration: 1.5, delay: 1 }}
         className="absolute text-neutral-100 text-5xl font-playfair"
       >
         <svg className="h-[32rem]" viewBox="0 0 500 625" x="0px" y="0px">
@@ -80,15 +80,6 @@ const Loading = () => {
           />
         </svg>
       </motion.div>
-      {/* 
-      <motion.div
-        initial={{ opacity: 0, x: -200 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ type: 'spring', duration: 1, delay: 1 }}
-        className='top-10 left-10 font-playfair text-5xl absolute text-neutral-100'
-      >
-        loading...
-      </motion.div> */}
 
       <div className="absolute top-10 left-10 flex flex-wrap justify-start w-screen max-w-5xl mx-auto">
         {message.map((word, i) => (
