@@ -237,7 +237,7 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.5 }}
-        className="flex flex-col justify-start sm:space-y-5 space-y-3 font-notosans lowercase text-3xl text-neutral-100 sm:w-[50%] absolute top-60 sm:top-72"
+        className="flex flex-col justify-start sm:space-y-5 space-y-3 font-notosans lowercase sm:text-5xl text-3xl text-neutral-100 sm:w-[50%] absolute top-60 sm:top-72 sm:right-96"
       >
         {projectLinks.map((link, i) => (
           <motion.div
