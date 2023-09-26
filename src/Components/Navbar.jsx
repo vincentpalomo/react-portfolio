@@ -95,7 +95,7 @@ const Navbar = () => {
                     initial={{ opacity: 0, x: 200 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, delay: 1 }}
-                    className="absolute bottom-0 sm:right-10 right-16"
+                    className="absolute bottom-0 sm:right-20 right-16"
                   >
                     <svg className="sm:h-96 sm:block h-[20rem]" viewBox="0 0 512 640" x="0px" y="0px">
                       <path fill="#171717" d="M213.27,398.83v0C213.22,398.62,213.19,398.49,213.27,398.83Z" />

@@ -107,9 +107,9 @@ const Projects = () => {
         initial={{ opacity: 0, x: 200 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 1 }}
-        className="absolute bottom-0 sm:right-10"
+        className="absolute bottom-0 sm:right-20"
       >
-        <svg className="sm:h-96 h-[20rem] border-2" viewBox="0 0 500 500" x="0px" y="0px">
+        <svg className="sm:h-96 h-[20rem]" viewBox="0 0 500 500" x="0px" y="0px">
           <path
             fill="#F5F5F5"
             d="M246.991,90.793c-3.117,65.11-.748,130.669-.366,195.887.07,3.373,5.177,3.378,5.245,0,.384-65.216,2.753-130.778-.364-195.887A2.259,2.259,0,0,0,246.991,90.793Z"
