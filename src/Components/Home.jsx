@@ -59,7 +59,7 @@ const Home = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.5 }}
-            className='absolute sm:bottom-5 sm:left-10 bottom-16 lowercase tracking-tight font-notosans text-lg sm:text-xl'
+            className='absolute sm:bottom-10 sm:left-10 bottom-16 lowercase tracking-tight font-notosans text-lg sm:text-xl'
           >
             available for hire or freelance projects &#10087;
           </motion.div>
@@ -67,7 +67,7 @@ const Home = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.5 }}
-            className='absolute sm:bottom-5 bottom-9 sm:right-10 text-lg sm:text-xl'
+            className='absolute sm:bottom-10 bottom-9 sm:right-10 text-lg sm:text-xl'
           >
             <div className='lowercase font-notosans tracking-tight leading-6'>
               Based in Louisiana, Open to Relocation <span className='font-notoemoji filter grayscale'>🛸</span>
