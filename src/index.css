@@ -10,3 +10,7 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
+.material-symbols-outlined.md-72 {
+  font-size: 28px;
+}
