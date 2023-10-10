@@ -18,7 +18,7 @@ const Home = () => {
           </motion.div>
 
           <Link
-            className='text-8xl mx-20 sm:mx-0 sm:text-[8rem] md:text-[8rem] lg:text-[10rem] xl:text-[13rem] tracking-tight absolute sm:top-24 top-20'
+            className='text-8xl mx-20 sm:mx-0 sm:text-[6rem] md:text-[8rem] lg:text-[9rem] xl:text-[12rem] 2xl:text-[13rem] tracking-tight absolute sm:top-24 top-20'
             to='/'
           >
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: 1 }}>
@@ -31,7 +31,7 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             animate={{ scale: 1.2 }}
             transition={{ duration: 1, delay: 1.5 }}
-            className='absolute sm:bottom-24 bottom-40'
+            className='absolute sm:bottom-40 md:bottom-32 bottom-40'
           >
             <svg className='h-[20rem]' viewBox='0 0 500 500' x='0px' y='0px'>
               <path fill='#F5F5F5' d='M254.963,169.094c4.664-3.232-.026-10.249-4.8-7.177C245.5,165.149,250.193,172.166,254.963,169.094Z' />
