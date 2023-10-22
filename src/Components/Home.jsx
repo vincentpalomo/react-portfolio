@@ -21,6 +21,7 @@ const Home = () => {
 
   return (
     <>
+      <div className="bg-[url('./Assets/noise.gif')] fixed top-0 left-0 h-screen w-screen z-[1000] pointer-events-none opacity-[.02]"></div>
       <Element id="home" name="home">
         <div className="relative h-screen bg-neutral-900 flex justify-center items-center text-9xl font-playfair text-neutral-100">
           <motion.div

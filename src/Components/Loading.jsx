@@ -37,6 +37,7 @@ const Loading = () => {
 
   return (
     <div className="min-h-screen w-full bg-neutral-900 flex justify-center items-center relative">
+      <div className="bg-[url('./Assets/noise.gif')] fixed top-0 left-0 h-screen w-screen z-[1000] pointer-events-none opacity-[.02]"></div>
       <motion.div className="absolute font-notosans font-black sm:text-[250px] text-[12.5rem] antialiased text-neutral-100 bottom-0 sm:right-10 right-4 overflow-y-hidden">
         {rounded}
       </motion.div>
@@ -81,7 +82,6 @@ const Loading = () => {
           />
         </svg>
       </motion.div>
-
       <div className="absolute top-10 sm:left-10 left-6 flex flex-wrap justify-start w-screen max-w-5xl mx-auto">
         {message.map((word, i) => (
           <motion.div
