@@ -40,7 +40,7 @@ const About = () => {
       </motion.div>
       <div className="max-w-5xl w-full sm:h-[500px] h-[12rem] sm:mt-0 mt-32 flex sm:flex-row justify-center sm:justify-start">
         <div className="h-full sm:w-1/2 w-[90%] flex flex-col justify-center items-center font-playfair text-neutral-100">
-          {/* <motion.div
+          <motion.div
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ type: 'spring', duration: 1, delay: 1 }}
@@ -49,8 +49,8 @@ const About = () => {
             I am a software engineer who completed the <span className="font-playfair italic">LSU Coding Bootcamp</span>
             . I'm enthusiastic about coding and love creating solutions that make a positive impact in the tech
             industry.
-          </motion.div> */}
-          <motion.div
+          </motion.div>
+          {/* <motion.div
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ type: 'spring', duration: 1, delay: 1 }}
@@ -59,9 +59,9 @@ const About = () => {
             I'm a software engineer with a strong background in coding and a passion for bringing ideas to life through
             technology. I graduated from the{' '}
             <span className="font-playfair font-bold italic">Louisiana State University Coding Bootcamp</span>, where I
-            learned the fundamentals of web development and gained proficiency in the MERN stack, TypeScript,
+            learned the fundamentals of web development and gained proficiency in the PERN stack, TypeScript,
             JavaScript, and nodeJS.
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
 
