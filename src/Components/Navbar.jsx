@@ -65,7 +65,7 @@ const Navbar = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="absolute z-20 top-10 sm:left-10 left-5 tracking-wide "
+            className="absolute z-20 top-10 sm:left-10 left-5 tracking-wide"
           >
             software engineer - fullstack developer
           </motion.div>

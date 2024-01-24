@@ -39,7 +39,7 @@ const Home = () => {
           </motion.div>
 
           <Link
-            className="text-8xl mx-20 sm:mx-0 sm:text-[6rem] md:text-[8rem] lg:text-[9rem] xl:text-[12rem] 2xl:text-[13rem] tracking-tight absolute sm:top-24 top-20"
+            className="text-8xl mx-20 sm:mx-0 sm:text-[6rem] md:text-[8rem] lg:text-[9rem] xl:text-[12rem] 2xl:text-[13rem] tracking-tight sm:leading-none leading-[5rem] absolute sm:top-24 top-24"
             to="/"
           >
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: 1 }}>
