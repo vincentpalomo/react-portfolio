@@ -44,7 +44,7 @@ const About = () => {
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ type: 'spring', duration: 1, delay: 1 }}
-            className="font-notosans text-lg leading-5 tracking-tight"
+            className="font-notosans text-lg leading-5 tracking-wider"
           >
             I am a software engineer who completed the <span className="font-playfair italic">LSU Coding Bootcamp</span>
             . I'm enthusiastic about coding and love creating solutions that make a positive impact in the tech
@@ -69,7 +69,7 @@ const About = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ type: 'spring', duration: 1, delay: 1.2 }}
-        className="text-neutral-100 pb-5 tracking-tighter text-7xl"
+        className="text-neutral-100 pb-5 tracking-tight text-7xl"
       >
         tech stack
       </motion.div>
