@@ -44,7 +44,7 @@ const About = () => {
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ type: 'spring', duration: 1, delay: 1 }}
-            className="font-notosans text-lg leading-5 tracking-wider"
+            className="font-notosans text-lg leading-6 tracking-wider"
           >
             I am a software engineer who completed the <span className="font-playfair italic">LSU Coding Bootcamp</span>
             . I'm enthusiastic about coding and love creating solutions that make a positive impact in the tech

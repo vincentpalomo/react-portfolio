@@ -21,7 +21,7 @@ const Loading = () => {
     const duration = 10000;
     const interval = duration / target;
 
-    animate(count, target, { duration: 10 });
+    animate(count, target, { duration: 5 });
 
     const counterInterval = setInterval(() => {
       if (count.get() === target) {
