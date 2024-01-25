@@ -12,6 +12,7 @@ const Projects = () => {
             initial={{ scale: 1 }}
             whileHover={{ scale: 1.2 }}
             href="https://github.com/vincentpalomo/rpg-oop-python"
+            target="_blank"
             className="hover:text-purple-500 font-playfair"
           >
             github
@@ -26,12 +27,22 @@ const Projects = () => {
           AM Portfolio
           <div className="flex sm:space-x-5 space-x-2 font-playfair">
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
-              <a href="https://abbymorgan.netlify.app/" className="hover:text-purple-500">
+              <a
+                href="https://abbymorgan.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-purple-500"
+              >
                 live
               </a>
             </motion.div>
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
-              <a href="https://github.com/vincentpalomo/abby-morgan-portfolio" className="hover:text-purple-500">
+              <a
+                href="https://github.com/vincentpalomo/abby-morgan-portfolio"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-purple-500"
+              >
                 github
               </a>
             </motion.div>
@@ -48,6 +59,8 @@ const Projects = () => {
             initial={{ scale: 1 }}
             whileHover={{ scale: 1.2 }}
             href="https://github.com/vincentpalomo/java-chatroom"
+            target="_blank"
+            rel="noreferrer"
             className="hover:text-purple-500 font-playfair"
           >
             github
@@ -62,12 +75,22 @@ const Projects = () => {
           CodeThreads
           <div className="flex sm:space-x-5 space-x-2 font-playfair">
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
-              <a href="https://codethreads.netlify.app/home" className="hover:text-purple-500">
+              <a
+                href="https://codethreads.netlify.app/home"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-purple-500"
+              >
                 live
               </a>
             </motion.div>
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
-              <a href="https://github.com/CodeThreads-FSA-VP-AM/CodeThreads" className="hover:text-purple-500">
+              <a
+                href="https://github.com/CodeThreads-FSA-VP-AM/CodeThreads"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-purple-500"
+              >
                 github
               </a>
             </motion.div>
@@ -82,12 +105,22 @@ const Projects = () => {
           fitnesstrackr
           <div className="flex sm:space-x-5 space-x-2 font-playfair">
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
-              <a href="https://fitnesstrakr-fsa-vp-at.netlify.app/" className="hover:text-purple-500">
+              <a
+                href="https://fitnesstrakr-fsa-vp-at.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-purple-500"
+              >
                 live
               </a>
             </motion.div>
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
-              <a href="https://github.com/anahuynh27/FitnessTracker_FrontEnd" className="hover:text-purple-500">
+              <a
+                href="https://github.com/anahuynh27/FitnessTracker_FrontEnd"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-purple-500"
+              >
                 github
               </a>
             </motion.div>
@@ -102,12 +135,22 @@ const Projects = () => {
           Valorant
           <div className="flex sm:space-x-5 space-x-2 font-playfair">
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
-              <motion.a href="https://valorant-react-vp.netlify.app/" className="hover:text-purple-500">
+              <motion.a
+                href="https://valorant-react-vp.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-purple-500"
+              >
                 live
               </motion.a>
             </motion.div>
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
-              <a href="https://github.com/vincentpalomo/Valorant-React-App" className="hover:text-purple-500">
+              <a
+                href="https://github.com/vincentpalomo/Valorant-React-App"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-purple-500"
+              >
                 github
               </a>
             </motion.div>
@@ -122,12 +165,22 @@ const Projects = () => {
           caeser cipher
           <div className="flex sm:space-x-5 space-x-2 font-playfair">
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
-              <motion.a href="https://caeser-cipher-react.netlify.app/" className="hover:text-purple-500">
+              <motion.a
+                href="https://caeser-cipher-react.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-purple-500"
+              >
                 live
               </motion.a>
             </motion.div>
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
-              <a href="https://github.com/vincentpalomo/caeser-cipher-react" className="hover:text-purple-500">
+              <a
+                href="https://github.com/vincentpalomo/caeser-cipher-react"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-purple-500"
+              >
                 github
               </a>
             </motion.div>
