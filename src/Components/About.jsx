@@ -8,7 +8,7 @@ const About = () => {
         initial={{ opacity: 0, x: -200 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 1 }}
-        className='text-9xl font-playfair absolute sm:top-20 top-16 sm:left-20 tracking-tighter text-neutral-100'
+        className='text-9xl font-playfair absolute sm:top-20 top-12 sm:left-20 tracking-tighter text-neutral-100'
       >
         about
       </motion.div>
@@ -38,7 +38,7 @@ const About = () => {
           />
         </svg>
       </motion.div>
-      <div className='max-w-5xl w-full sm:h-fit h-[12rem] sm:mt-32 mt-32 flex sm:flex-row justify-center sm:justify-start'>
+      <div className='max-w-5xl w-full sm:h-fit h-[32rem] sm:mt-32 mt-40 flex sm:flex-row justify-center sm:justify-start'>
         <div className='h-full sm:w-1/2 w-[90%] flex flex-col justify-center items-center font-playfair text-neutral-100'>
           <motion.div
             initial={{ opacity: 0, x: -200 }}
