@@ -21,7 +21,7 @@ const Loading = () => {
     const duration = 10000;
     const interval = duration / target;
 
-    animate(count, target, { duration: 10 });
+    animate(count, target, { duration: 5 });
 
     const counterInterval = setInterval(() => {
       if (count.get() === target) {
@@ -86,7 +86,7 @@ const Loading = () => {
         {message.map((word, i) => (
           <motion.div
             key={word.id}
-            className="font-playfair text-5xl sm:text-5xl text-neutral-100 tracking-tighter m-1"
+            className="font-playfair text-5xl sm:text-5xl text-neutral-100 sm:tracking-wide tracking-normal m-1"
             initial={{ opacity: 0, y: -200 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ type: 'spring', duration: 1.5, delay: i * 1 }}

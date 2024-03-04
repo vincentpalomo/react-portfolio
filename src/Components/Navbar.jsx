@@ -65,7 +65,7 @@ const Navbar = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="absolute z-20 top-10 sm:left-10 left-5"
+            className="absolute z-20 top-10 sm:left-10 left-5 tracking-wide"
           >
             software engineer - fullstack developer
           </motion.div>
@@ -136,7 +136,7 @@ const Navbar = () => {
                     </svg>
                   </motion.div>
 
-                  <div className="flex flex-col justify-center items-center sm:h-[100%] h-3/4 space-y-5 font-playfair lowercase text-7xl text-neutral-900">
+                  <div className="flex flex-col justify-center items-center sm:h-[100%] h-3/4 space-y-5 font-playfair tracking-tight lowercase text-7xl text-neutral-900">
                     {links.map((link, i) => (
                       <motion.div
                         key={link.id}

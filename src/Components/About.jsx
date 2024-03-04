@@ -40,17 +40,17 @@ const About = () => {
       </motion.div>
       <div className="max-w-5xl w-full sm:h-[500px] h-[12rem] sm:mt-0 mt-32 flex sm:flex-row justify-center sm:justify-start">
         <div className="h-full sm:w-1/2 w-[90%] flex flex-col justify-center items-center font-playfair text-neutral-100">
-          {/* <motion.div
+          <motion.div
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ type: 'spring', duration: 1, delay: 1 }}
-            className="font-notosans text-lg leading-5 tracking-tight"
+            className="font-notosans text-lg leading-6 tracking-wider"
           >
             I am a software engineer who completed the <span className="font-playfair italic">LSU Coding Bootcamp</span>
             . I'm enthusiastic about coding and love creating solutions that make a positive impact in the tech
             industry.
-          </motion.div> */}
-          <motion.div
+          </motion.div>
+          {/* <motion.div
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ type: 'spring', duration: 1, delay: 1 }}
@@ -59,9 +59,9 @@ const About = () => {
             I'm a software engineer with a strong background in coding and a passion for bringing ideas to life through
             technology. I graduated from the{' '}
             <span className="font-playfair font-bold italic">Louisiana State University Coding Bootcamp</span>, where I
-            learned the fundamentals of web development and gained proficiency in the MERN stack, TypeScript,
+            learned the fundamentals of web development and gained proficiency in the PERN stack, TypeScript,
             JavaScript, and nodeJS.
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
 
@@ -69,7 +69,7 @@ const About = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ type: 'spring', duration: 1, delay: 1.2 }}
-        className="text-neutral-100 pb-5 tracking-tighter text-7xl"
+        className="text-neutral-100 pb-5 tracking-tight text-7xl"
       >
         tech stack
       </motion.div>
@@ -106,6 +106,13 @@ const About = () => {
             d="M49.33 62h29.159C86.606 62 93 55.132 93 46.981V19.183c0-7.912-6.632-13.856-14.555-15.176-5.014-.835-10.195-1.215-15.187-1.191-4.99.023-9.612.448-13.805 1.191C37.098 6.188 35 10.758 35 19.183V30h29v4H23.776c-8.484 0-15.914 5.108-18.237 14.811-2.681 11.12-2.8 17.919 0 29.53C7.614 86.983 12.569 93 21.054 93H31V79.952C31 70.315 39.428 62 49.33 62zm-1.838-39.11c-3.026 0-5.478-2.479-5.478-5.545 0-3.079 2.451-5.581 5.478-5.581 3.015 0 5.479 2.502 5.479 5.581-.001 3.066-2.465 5.545-5.479 5.545zm74.789 25.921C120.183 40.363 116.178 34 107.682 34H97v12.981C97 57.031 88.206 65 78.489 65H49.33C41.342 65 35 72.326 35 80.326v27.8c0 7.91 6.745 12.564 14.462 14.834 9.242 2.717 17.994 3.208 29.051 0C85.862 120.831 93 116.549 93 108.126V97H64v-4h43.682c8.484 0 11.647-5.776 14.599-14.66 3.047-9.145 2.916-17.799 0-29.529zm-41.955 55.606c3.027 0 5.479 2.479 5.479 5.547 0 3.076-2.451 5.579-5.479 5.579-3.015 0-5.478-2.502-5.478-5.579 0-3.068 2.463-5.547 5.478-5.547z"
           ></path>
         </svg>
+
+        {/* <svg className="sm:h-20 h-16" viewBox="0 0 128 128">
+          <path
+            d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64c11.2 0 21.7-2.9 30.8-7.9L48.4 55.3v36.6h-6.8V41.8h6.8l50.5 75.8C116.4 106.2 128 86.5 128 64c0-35.3-28.7-64-64-64zm22.1 84.6l-7.5-11.3V41.8h7.5v42.8z"
+            fill="#F5F5F5"
+          ></path>
+        </svg> */}
 
         <svg className="sm:h-20 h-16" viewBox="0 0 128 128">
           <g fill="#F5F5F5">
@@ -160,6 +167,13 @@ const About = () => {
             ></path>
             <path d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"></path>
           </g>
+        </svg>
+
+        <svg className="sm:h-20 h-16" viewBox="0 0 128 128">
+          <path
+            d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129zm0 0M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5zm0 0M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5zm0 0M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0"
+            fill="#F5F5F5"
+          ></path>
         </svg>
       </motion.div>
     </div>
