@@ -68,7 +68,7 @@ const Contacts = () => {
           initial={{ scale: 1 }}
           whileHover={{ scale: 1.2 }}
           className="hover:text-purple-500"
-          href="mailto: vincentpalomo@yahoo.com"
+          href="mailto: vincentpalomo@outlook.com"
         >
           email
         </motion.a>
@@ -76,7 +76,7 @@ const Contacts = () => {
           initial={{ scale: 1 }}
           whileHover={{ scale: 1.2 }}
           className="hover:text-purple-500"
-          href="tel:+12256364085"
+          href="tel:+12252429843"
         >
           phone
         </motion.a>
