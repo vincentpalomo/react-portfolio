@@ -204,7 +204,7 @@ const Projects = () => {
           <div className="flex sm:space-x-5 space-x-2 font-playfair">
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
               <motion.a
-                href="https://caesercipher.vincentpalomo.dev/"
+                href="https://caesercypher.vincentpalomo.dev/"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-purple-500"
