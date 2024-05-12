@@ -28,7 +28,7 @@ const Projects = () => {
           <div className="flex sm:space-x-5 space-x-2 font-playfair">
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
               <motion.a
-                href="https://phenomena-reports.netlify.app/reports"
+                href="https://phenomena.vincentpalomo.dev/reports"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-purple-500"
@@ -58,7 +58,7 @@ const Projects = () => {
           <div className="flex sm:space-x-5 space-x-2 font-playfair">
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
               <motion.a
-                href="https://valorant-react-vp.netlify.app/"
+                href="https://valorant.vincentpalomo.dev/"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-purple-500"
@@ -117,12 +117,7 @@ const Projects = () => {
           Lucid Studio
           <div className="flex sm:space-x-5 space-x-2 font-playfair">
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
-              <a
-                href="https://lucidstudio.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="hover:text-purple-500"
-              >
+              <a href="https://lucidstudio.dev/" target="_blank" rel="noreferrer" className="hover:text-purple-500">
                 live
               </a>
             </motion.div>
@@ -209,7 +204,7 @@ const Projects = () => {
           <div className="flex sm:space-x-5 space-x-2 font-playfair">
             <motion.div initial={{ scale: 1 }} whileHover={{ scale: 1.2 }}>
               <motion.a
-                href="https://caeser-cipher-react.netlify.app/"
+                href="https://caesercipher.vincentpalomo.dev/"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-purple-500"
